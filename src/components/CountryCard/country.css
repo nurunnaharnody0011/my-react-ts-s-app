@@ -1,0 +1,53 @@
+.country-card {
+  border: 1px solid #f8e3e3;
+  background-color: #def3b22b;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(2, 2, 2, 0.224);
+}
+.country-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.country-card h2 {
+  font-size: 1.5rem;
+  margin: 8px 0;
+}
+.country-card p {
+  font-size: 1rem;
+  margin: 4px 0;
+}
+.country-card button {
+  background-color: #4caf4fe0;
+  color: white;
+  border: none;
+  margin-top: 8px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.country-card button:hover {
+  background-color: #45a049;
+}
+.country-visited {
+  background-color: #d0f997ab;
+}
+.country-visited button {
+  background-color: #137916f5;
+}
+@media screen and (max-width: 768px) {
+  .country-card {
+    margin: 8px;
+    padding: 8px;
+  }
+  .country-card h2 {
+    font-size: 1.2rem;
+  }
+  .country-card p {
+    font-size: 0.9rem;
+  }
+    
+}
